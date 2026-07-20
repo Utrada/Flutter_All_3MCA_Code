@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/home_screen.dart';
+import 'package:untitled/image_example.dart';
 import 'package:untitled/task1.dart';
 
 void main() {
@@ -33,7 +34,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       /*home: HomeScreen()*/
-      home: Task1()
+      /*home: Task1()*/
+      home: ImageExample()
     );
   }
 }
